@@ -1,14 +1,11 @@
 # Create a page that shows a message “I’m JavaScript!”.
-
+```
 <!DOCTYPE html>
 <html>
-
 <body>
-
   <script>
     alert( "I'm JavaScript!" );
   </script>
-
 </body>
-
 </html>
+```
