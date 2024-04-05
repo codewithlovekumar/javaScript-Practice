@@ -8,7 +8,7 @@ The overwhelming majority of websites use JavaScript, and all modern web browser
 # Hello, world!
 JavaScript programs can be inserted almost anywhere into an HTML document using the <script> tag.
 For instance:
-
+#
 <!DOCTYPE HTML>
 <html>
 <body>
