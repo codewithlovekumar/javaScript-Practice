@@ -9,6 +9,7 @@ The overwhelming majority of websites use JavaScript, and all modern web browser
 JavaScript programs can be inserted almost anywhere into an HTML document using the <script> tag.
 For instance:
 #
+```
 <!DOCTYPE HTML>
 <html>
 <body>
@@ -19,7 +20,7 @@ For instance:
   <p>...After the script.</p>
 </body>
 </html>
-
+```
 # External scripts
 If we have a lot of JavaScript code, we can put it into a separate file.
 Script files are attached to HTML with the src attribute:
