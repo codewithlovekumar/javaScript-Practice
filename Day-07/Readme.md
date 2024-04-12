@@ -1,0 +1,49 @@
+# Object-oriented programming (OOP)
+it is a programming paradigm that revolves around the concept of "objects." It's a way of designing and organizing code by representing real-world entities and their interactions as software objects. OOP aims to provide a more intuitive and organized approach to structuring code by focusing on data encapsulation, abstraction, inheritance, and polymorphism.
+
+## Class [ Class == HTML Tag , Template ]
+A class is a blueprint for creating objects with similar properties and methods. It's a way to define a template that encapsulates the structure and behavior of objects. Classes were introduced in ECMAScript 2015 (ES6) and provide a more structured and familiar approach to object-oriented programming.
+
+## Object
+An object is a fundamental concept that represents a real-world entity, concept, or thing with its own attributes (data) and behaviors (methods). Objects are instances of classes, which are templates or blueprints for creating objects with similar characteristics and functionalities.
+
+// es 6 class
+```
+class admin{
+    name = "Punit";
+    profile = "FullStack";
+    // this is a privare Variable
+    #account = 2023;
+```
+```
+    hello()
+    {
+        return(`welcome ${this.name}`);
+
+    }
+    // getter 
+    get getAccount()
+    {
+        return this.#account;
+    }
+    set setAccount(value)
+    {
+        return this.#account=value;
+    }
+
+}
+const tech = new admin();
+console.log(tech.name);
+console.log(tech.hello());
+
+// undefine
+//console.log(tech.account);
+// Uncaught SyntaxError: Private field '#account' must be declared in an enclosing class
+//console.log(tech.#account);
+
+//setter
+//tech.setAccount(2024);
+tech.setAccount=2024;
+//console.log(tech.getAccount());
+console.log(tech.getAccount);
+```
