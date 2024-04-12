@@ -14,8 +14,7 @@ class admin{
     profile = "FullStack";
     // this is a privare Variable
     #account = 2023;
-```
-```
+
     hello()
     {
         return(`welcome ${this.name}`);
